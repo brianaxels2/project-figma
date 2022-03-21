@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: opem 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+$cor-primaria: #B73D26;
+$cor-segundaria: #E27B01;
+$cor-tercearia: #FF8A00;
+$color-fonte-w: #FFFFFF;
+$color-fonte-b: #000;
+
+#cabecalho {
+    height: 95px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    background-color: $cor-primaria;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+#menu li {
+    margin: 0 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: $color-fonte-w;
+    transition: .3s;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+#menu a:hover {
+    color: $cor-segundaria;
+}
+#nav {
+    display: flex;
+}
+#btn-mobile {
+    display: none;
+}
+.redes-sociais svg {
+    height: 16px;
+    width: 16px;
+    color: $color-fonte-w;
+    cursor: pointer;
+    transition: .3s;
+    margin: 0 20px 0 0;
+}
+.redes-sociais svg:hover {
+    color: $cor-segundaria;
+}
+
+/* section local */
+#location {
+    background-image: url(./img-cabecalho/Rectangle\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height: 840px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img-location {
+    background-image: url(./img-cabecalho/Group\ 8.png);
+    height: 383px;
+    mix-blend-mode: multiply;
+    margin-top: 95px;
+    width: 100%;
+}
+.img-location-two {
+    background-image: url(./img-cabecalho/Group\ 9.png);
+    background-position: center;
+    background-size: cover;
+    height: 383px;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    mix-blend-mode: multiply;
+    margin-top: 500px;
+}
+.location {
+    background-image: url(./img-cabecalho/Rectangle\ 13.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 100000;
+    margin-top: 240px;
+}
+.logo-marca {
+    background-image: url(./img-cabecalho/logo\ 1\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height: 278px;
+    width: 59px;
+    position: absolute;
+    z-index: 10000;
+    left: 150px;
+    position: fixed;
+    top: 20px;
+}
+.location h1 {
+    font-size: 64px;
+    font-weight: 800;
+    color: $color-fonte-w;
+}
+.location h2 {
+    font-size: 64px;
+    font-weight: 800;
+    color: $cor-segundaria;
+}
+.location p {
+    max-width: 520px;
+    font-size: 18px;
+    font-weight: 400;
+    color: $color-fonte-w;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.text {
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+/* section cozinha*/
+.plates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 0;
+}
+.img-plates {
+    margin-bottom: 30px;
+}
+.div-plates img {
+    margin: 0px 5px 15px 5px;
+}
+.kitchen img {
+    width: 499px;
+    height: 548px;
+    margin-right: 40px;
+}
+.information {
+    max-width: 610px;
+}
+.information label {
+    color: $cor-primaria;
+}
+.information p {
+    color: $cor-primaria;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 400;
+}
+.information h1 {
+    font-size: 64px;
+    font-weight: 800;
+    color: $color-fonte-b;
+}
+.information h2 {
+    font-size: 64px;
+    font-weight: 800;
+    color: $cor-primaria;
+}
+.information h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.line {
+    width: 1150px;
+    height: 1px;
+    background-color: rgba(144, 144, 144, 0.219);
+}
+.div-drinks img {
+    margin: 0px 5px 15px 5px;
+}
+.information-drink {
+    max-width: 360px;
+}
+.information-drink label {
+    color: $cor-primaria;
+}
+.information-drink p {
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    color: $cor-primaria;
+}
+.information-drink h1 {
+    font-weight: 800;
+    font-size: 48px;
+    color: $color-fonte-b;
+}
+.information-drink h2 {
+    font-weight: 800;
+    font-size: 48px;
+    color: $cor-primaria;
+}
+.drinks-title {
+    margin: 50px 0;
+}
+.information-drink h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn-cardapio {
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: $cor-segundaria;
+    color: $color-fonte-w;
+    transition: .3s;
+}
+.btn-cardapio:hover {
+    background-color: #ff8c00;
+}
+
+/* section sobre*/
+.image-fundo {
+    background-image: url(./img-sobre/Rectangle\ 3.png);
+    height: 746px;
+}
+.image-fundo-two {
+    background-image: url(./img-sobre/Group\ 10.png);
+    width: 100%;
+    height: 383px;
+    position: absolute;
+    z-index: 999;
+    mix-blend-mode: darken;
+}
+.image-fundo h1 {
+    margin-bottom: 550px;
+    z-index: 9999;
+    color: $color-fonte-b;
+    font-weight: 800;
+    font-size: 64px;
+}
+.img-meio {
+    width: 298px;
+    height: 298px;
+    z-index: 999;
+    position: absolute;
+    left: 792px;
+}
+.img-meio svg {
+    width: 70px;
+    height: 70px;
+    color: $color-fonte-w;
+}
+.image-sobre {
+    overflow: hidden;
+    margin-top: 35px;
+}
+.image-area {
+    background-image: url(./img-sobre/image\ 8.png);
+    height: 720px;
+}
+.information-area {
+    background-image: url(./img-sobre/Rectangle\ 19.png);
+    height: 720px;
+    width: 464px;
+    margin-right: 300px;
+}
+.information-title {
+    max-width: 400px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.information-area h1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: $color-fonte-w;
+}
+.information-area h2 {
+    font-weight: 800;
+    font-size: 40px;
+    color: $cor-tercearia;
+}
+.information-area p {
+    max-width: 389px;
+    color: $color-fonte-w;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.information-area h6 {
+    color: $cor-tercearia;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+/* footer*/
+.img-footer {
+    background-image: url(./img-footer/Group\ 11.png);
+    width: 100%;
+    height: 353px;
+    margin-top: -10px;
+}
+.img-top {
+    background-image: url(./img-footer/Rectangle\ 12.png);
+    height: 288px;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    margin-top: 28px;
+}
+.img-top img {
+    width: 165px;
+    height: 95px;
+}
+.img-top p {
+    width: 216px;
+    font-weight: 400;
+    font-size: 14px;
+    color: $color-fonte-w;
+}
+.img-top h2 {
+    font-size: 18px;
+    font-weight: 700px;
+    color: $color-fonte-w;
+}
+.img-top a {
+    color: $cor-segundaria;
+}
+.img-top label {
+    color: $color-fonte-w;
+}
+.background {
+    height: 50px;
+    width: 50px;
+    background-color: $cor-primaria;
+    border-radius: 50%;
+    color: $color-fonte-w;
+    cursor: pointer;
+    margin-right: 10px;
+}

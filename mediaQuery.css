@@ -1,0 +1,900 @@
+@media (max-width: 1172px) {
+    /* section cabeçalho */
+        #menu {
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+        }
+        #menu li {
+            margin: 0 30px;
+        }
+        #menu a {
+            text-decoration: none;
+            color: #FFFFFF;
+            transition: .3s;
+            font-size: 12px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+        #menu a:hover {
+            color: #E27B01;
+        }
+        #nav {
+            display: flex;
+        }
+        #btn-mobile {
+            display: none;
+        }
+        .redes-sociais svg {
+            height: 16px;
+            width: 16px;
+            color: #FFFFFF;
+            cursor: pointer;
+            transition: .3s;
+            margin: 0 20px 0 0;
+        }
+        .redes-sociais svg:hover {
+            color: #E27B01;
+        }
+    
+        /* section local */
+        #location {
+            background-image: url(./img-cabecalho/Rectangle\ 1.png);
+            background-position: center;
+            background-size: cover;
+            height: 752px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .img-location {
+            background-image: url(./img-cabecalho/Group\ 8.png);
+            background-position: center;
+            background-size: cover;
+            height: 283px;
+            mix-blend-mode: multiply;
+            margin-top: 95px;
+            width: 100%;
+        }
+        .img-location-two {
+            background-image: url(./img-cabecalho/Group\ 9.png);
+            height: 283px;
+            width: 100%;
+            position: absolute;
+            z-index: 10000;
+            mix-blend-mode: multiply;
+            margin-top: 500px;
+        }
+        .location {
+            background-image: url(./img-cabecalho/Rectangle\ 13.png);
+            width: 100%;
+            height: 474px;
+            position: absolute;
+            z-index: 100000;
+            margin-top: 203px;
+        }
+        .logo-marca {
+            background-image: url(./img-cabecalho/logo\ 1\ 1.png);
+            background-size: cover;
+            height: 188px;
+            width: 40px;
+            position: absolute;
+            z-index: 10000;
+            left: 50px;
+            position: fixed;
+            top: 20px;
+        }
+        .location h1 {
+            font-size: 44px;
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+        .location h2 {
+            font-size: 44px;
+            font-weight: 800;
+            color: #FF8A00;
+        }
+        .location p {
+            max-width: 520px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #FFFFFF;
+            margin-left: 200px;
+        }
+        .text {
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+    
+        /* section cozinha*/
+        .plates {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 100px 0 0 0;
+        }
+        .kitchen img {
+            width: 299px;
+            height: 348px;
+        }
+        .information {
+            max-width: 350px;
+        }
+        .information p {
+            color: #B73D26;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 7px;
+            font-weight: 400;
+        }
+        .information h1 {
+            font-size: 35px;
+        }
+        .information h2 {
+            font-size: 35px;
+        }
+        .information h3 {
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: 30px;
+        }
+        .line {
+            width: 695px;
+        }
+        .img-plates img {
+            width: 219px;
+            height: 165px;
+        }
+    
+        .information-drink {
+            max-width: 200px;
+        }
+        .information-drink p {
+            font-size: 10px;
+        }
+        .information-drink h1 {
+            font-size: 25px;
+        }
+        .information-drink h2 {
+            font-size: 25px;
+        }
+        .information-drink h3 {
+            font-size: 14px;
+        }
+        .btn-cardapio {
+            padding: 10px 20px;
+            font-size: 13px;
+            text-transform: uppercase;
+            background-color: #E27B01;
+            color: #FFFFFF;
+            transition: .3s;
+        }
+        .btn-cardapio:hover {
+            background-color: #ff8c00;
+        }
+        .drinks img {
+            height: 158px;
+        }
+        .drinks-title {
+            margin: 20px 0;
+        }
+    
+    
+        /* section sobre */
+        .image-fundo {
+            height: 540px;
+        }
+        .image-fundo-two {
+            width: 100%;
+            height: 230px;
+        }
+        .image-fundo-two img {
+            width: 174px;
+        }
+        .image-fundo h1 {
+            margin-bottom: 380px;
+            z-index: 9999;
+            color: black;
+            font-weight: 800;
+            font-size: 44px;
+        }
+        .img-meio {
+            width: 175px;
+            height: 174px;
+            left: 511px;
+        }
+        .img-meio img {
+            width: 20px;
+        }
+        .img-meio svg {
+            width: 30px;
+            height: 30px;
+            color: #FFFFFF;
+        }
+        .image-sobre {
+            overflow: hidden;
+            margin-top: 35px;
+        }
+        .image-area {
+            height: 500px;
+            background-position: center;
+            background-size: cover;
+        }
+        .information-area {
+            background-image: url(./img-sobre/Rectangle\ 19.png);
+            height: 500px;
+            width: 334px;
+            margin-right: 100px;
+        }
+        .information-title {
+            max-width: 400px;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+        .information-area h1 {
+            font-weight: 800;
+            font-size: 25px;
+            color: #FFFFFF;
+        }
+        .information-area h2 {
+            font-weight: 800;
+            font-size: 25px;
+            color: #FF8A00;
+        }
+        .information-area p {
+            max-width: 289px;
+            font-size: 13px;
+        }
+        .information-area h6 {
+            color: #FF8A00;
+            font-size: 13px;
+        }
+        /* footer */
+        .img-footer {
+            background-image: url(./img-footer/Group\ 11.png);
+            width: 100%;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+        }
+        .img-top {
+            background-image: url(./img-footer/Rectangle\ 12.png);
+            height: 245px;
+            margin-top: 22px;
+        }
+        .img-top img {
+            width: 125px;
+            height: 65px;
+        }
+        .img-top p {
+            width: 216px;
+            font-weight: 400;
+            font-size: 13px;
+            color: #FFFFFF;
+        }
+        .img-top h2 {
+            font-size: 17px;
+            font-weight: 700px;
+            color: #FFFFFF;
+        }
+        .background {
+            height: 40px;
+            width: 40px;
+            background-color: #B73D26;
+            border-radius: 50%;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        .background svg {
+            margin: 0 auto;
+        }
+    }
+    
+    @media (max-width: 904px) {
+        /* section cabeçalho */
+        #menu a {
+            font-size: 11px;
+        }
+        /* section local */
+        #location {
+            height: 595px;
+        }
+        .img-location {
+            height: 235px;
+        }
+        .img-location-two {
+            height: 235px;
+            margin-top: 386px;
+        }
+        .location {
+            height: 350px;
+            margin-top: 183px;
+        }
+        .logo-marca {
+            height: 158px;
+            width: 30px;
+        }
+        .location h1 {
+            font-size: 30px;
+        }
+        .location h2 {
+            font-size: 30px;
+        }
+        .location p {
+            max-width: 320px;
+            font-size: 14px;
+            margin-left: 130px;
+            margin-top: 20px;
+        }
+        .text {
+            margin-top: 90px;
+            margin-left: 130px;
+        }
+    
+        /* section cozinha*/
+        .plates {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 80px 0 0 0;
+        }
+        .kitchen img {
+            width: 250px;
+            height: 295px;
+        }
+        .information {
+            max-width: 240px;
+        }
+        .information p {
+            font-size: 8px;
+            letter-spacing: 5px;
+        }
+        .information h1 {
+            font-size: 25px;
+        }
+        .information h2 {
+            font-size: 25px;
+        }
+        .information h3 {
+            font-size: 11px;
+            margin-top: 30px;
+        }
+        .line {
+            width: 540px;
+        }
+        .img-plates img {
+            width: 166px;
+            height: 130px;
+        }
+        .information-drink {
+            max-width: 230px;
+            margin-left: 45px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .information-drink p {
+            font-size: 8px;
+            letter-spacing: 5px;
+        }
+        .information-drink h1 {
+            font-size: 30px;
+        }
+        .information-drink h2 {
+            font-size: 30px;
+        }
+        .information-drink h3 {
+            font-size: 12px;
+        }
+        .btn-cardapio {
+            font-size: 10px;
+            margin-bottom: 20px;
+        }
+        .drinks {
+            flex-direction: column;
+            align-items: center;
+        }
+        .drinks img {
+            height: 150px;
+        }
+        .drinks-title {
+            margin: 20px 0;
+        }
+    
+        /* section sobre */
+        .image-fundo {
+            height: 440px;
+        }
+        .image-fundo h1 {
+            margin-bottom: 330px;
+            font-size: 35px;
+        }
+        .img-meio {
+            left: 451px;
+        }
+        .image-sobre {
+            overflow: hidden;
+            margin-top: 35px;
+        }
+        .image-area {
+            height: 400px;
+        }
+        .information-area {
+            height: 400px;
+            width: 300px;
+            margin-right: 100px;
+        }
+        .information-area h1 {
+            font-size: 20px;
+        }
+        .information-area h2 {
+            font-size: 20px;
+        }
+        .information-area p {
+            max-width: 190px;
+            font-size: 10px;
+            margin-top: 20px;
+        }
+        .information-area h6 {
+            font-size: 12px;
+        }
+        .information-title {
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+        
+        /* footer */
+        .img-footer {
+            background-image: url(./img-footer/Group\ 11.png);
+            width: 100%;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+        }
+        .img-top {
+            background-image: url(./img-footer/Rectangle\ 12.png);
+            height: 245px;
+            margin-top: 22px;
+        }
+        .img-top img {
+            width: 115px;
+            height: 65px;
+        }
+        .img-top p {
+            width: 200px;
+            font-size: 11px;
+        }
+        .img-top h2 {
+            font-size: 15px;
+            font-weight: 700px;
+            color: #FFFFFF;
+        }
+        .background {
+            height: 30px;
+            width: 30px;
+        }
+    }
+    
+    @media (max-width: 700px) {
+        /* menu mobile */
+        #menu {
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: 95px;
+            left: 50%;
+            background-color: #B73D26;
+            height: 0;
+            z-index: 100000;
+            flex-direction: column;
+            list-style: square;
+            color: #FFFFFF;
+            transition: .6s;
+            visibility: hidden;
+            overflow-y: hidden;
+        }
+        #menu li {
+            margin-bottom: 8px;
+            font-size: 10px;
+        }
+        #nav.active #menu {
+            height: 200px;
+            visibility: visible;
+        }
+        #btn-mobile {
+            display: flex;
+            padding: .5rem 1rem;
+            font-size: 1rem;
+            border: none;
+            background: none;
+            cursor: pointer;
+            gap: .5rem;
+            margin-top: -2px;
+        }
+        #menu-hamburguer {
+            width: 20px;
+            border-top: 3px solid rgb(255, 255, 255);
+        }
+        #menu-hamburguer::after, #menu-hamburguer::before {
+            width: 20px;
+            height: 3px;
+            background-color: #FFFFFF;
+            content: '';
+            display: block;
+            margin-top: 5px;
+            transition: .3s;
+            position: relative;
+        }
+        #nav.active #menu-hamburguer {
+            border-top-color: transparent;
+        }
+        #nav.active #menu-hamburguer::before {
+            transform: rotate(135deg);
+        }
+        #nav.active #menu-hamburguer::after {
+            transform: rotate(-135deg);
+            top: -8px;
+        }
+        /* section cabeçalho */
+        #menu a {
+            font-size: 10px;
+        }
+        .redes-sociais svg {
+            display: none;
+        }
+        /* section local */
+        #location {
+            height: 493px;
+        }
+        .img-location {
+            height: 200px;
+        }
+        .img-location-two {
+            height: 200px;
+            margin-top: 315px;
+        }
+        .location {
+            height: 270px;
+            margin-top: 170px;
+        }
+        .logo-marca {
+            height: 158px;
+            width: 30px;
+        }
+        .location h1 {
+            font-size: 27px;
+        }
+        .location h2 {
+            font-size: 27px;
+        }
+        .location p {
+            max-width: 220px;
+            font-size: 12px;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        .text {
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+    
+        /* section cozinha*/
+        .plates {
+            display: flex;
+            flex-direction: column;
+        }
+        .kitchen img {
+            width: 240px;
+            height: 285px;
+            margin: 0px;
+        }
+        .information {
+            max-width: 240px;
+            margin: 0px;
+        }
+        .information p {
+            font-size: 8px;
+            letter-spacing: 5px;
+            margin-top: 20px;
+        }
+        .information h1 {
+            font-size: 25px;
+        }
+        .information h2 {
+            font-size: 25px;
+        }
+        .information h3 {
+            font-size: 11px;
+            margin-top: 30px;
+        }
+        .line {
+            width: 300px;
+        }
+        .img-plates img {
+            width: 200px;
+            height: 150px;
+        }
+        .div-plates, .div-drinks {
+            display: flex;
+            flex-direction: column;
+        }
+        .information-drink {
+            max-width: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .information-drink p {
+            font-size: 8px;
+            letter-spacing: 5px;
+        }
+        .information-drink h1 {
+            font-size: 26px;
+        }
+        .information-drink h2 {
+            font-size: 26px;
+        }
+        .information-drink h3 {
+            font-size: 11px;
+        }
+        .btn-cardapio {
+            font-size: 9px;
+            margin-bottom: 30px;
+        }
+        .drinks {
+            flex-direction: column;
+            align-items: center;
+        }
+        .drinks img {
+            height: 220px;
+        }
+        .drinks-title {
+            margin: 20px 0;
+        }
+    
+        /* section sobre */
+        .image-fundo {
+            height: 350px;
+        }
+        .image-fundo h1 {
+            margin-bottom: 250px;
+            font-size: 26px;
+        }
+        .img-meio {
+            left: 212px;
+            height: 105px;
+        }
+        .image-sobre {
+            overflow: hidden;
+            margin-top: 35px;
+            height: 105px;
+        }
+        .image-fundo-two {
+            height: 180px;
+        }
+        .image-area {
+            height: 300px;
+        }
+        .information-area {
+            height: 300px;
+            width: 200px;
+            margin-right: 50px;
+        }
+        .information-area h1 {
+            font-size: 16px;
+        }
+        .information-area h2 {
+            font-size: 16px;
+        }
+        .information-area p {
+            max-width: 160px;
+            font-size: 8px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .information-area h6 {
+            font-size: 10px;
+            margin-left: 20px;
+        }
+        .information-title {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
+        /* footer */
+        .img-footer {
+            background-image: url(./img-footer/Group\ 11.png);
+            width: 100%;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+        }
+        .img-top {
+            background-image: url(./img-footer/Rectangle\ 12.png);
+            height: 245px;
+            margin-top: 22px;
+            flex-direction: column;
+        }
+        .img-top img {
+            width: 100px;
+            height: 55px;
+        }
+        label {
+            font-size: 12px;
+        }
+        .img-top a {
+            font-size: 11px;
+        }
+        .img-top p {
+            width: 150px;
+            font-size: 11px;
+        }
+        .img-top h2 {
+            font-size: 15px;
+            font-weight: 700px;
+            color: #FFFFFF;
+        }
+        .background {
+            height: 30px;
+            width: 30px;
+        }
+    }
+    
+    @media (max-width: 495px) {
+        .img-meio {
+            left: 240px;
+            height: 105px;
+        }
+    }
+    
+    @media (max-width: 425px) {
+        /* section cozinha*/
+        .kitchen img {
+            width: 220px;
+            height: 255px;
+            margin: 0px;
+        }
+        .information {
+            max-width: 210px;
+            margin: 0px;
+        }
+        .information p {
+            font-size: 8px;
+            letter-spacing: 5px;
+            margin-top: 20px;
+        }
+        .information h1 {
+            font-size: 22px;
+        }
+        .information h2 {
+            font-size: 22px;
+        }
+        .information h3 {
+            font-size: 13px;
+            margin-top: 30px;
+        }
+        .img-plates img {
+            width: 180px;
+            height: 130px;
+        }
+        .information-drink {
+            max-width: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .information-drink p {
+            font-size: 8px;
+            letter-spacing: 5px;
+        }
+        .information-drink h1 {
+            font-size: 22px;
+        }
+        .information-drink h2 {
+            font-size: 22px;
+        }
+        .information-drink h3 {
+            font-size: 13px;
+        }
+        .btn-cardapio {
+            font-size: 9px;
+            margin-bottom: 30px;
+        }
+        .drinks {
+            flex-direction: column;
+            align-items: center;
+        }
+        .drinks img {
+            height: 200px;
+        }
+        .drinks-title {
+            margin: 20px 0;
+        }
+    
+        /* section sobre */
+        .image-fundo {
+            height: 350px;
+        }
+        .image-fundo h1 {
+            margin-bottom: 250px;
+            font-size: 26px;
+        }
+        .img-meio {
+            left: 210px;
+            height: 105px;
+        }
+        .image-sobre {
+            overflow: hidden;
+            margin-top: 35px;
+            height: 105px;
+        }
+        .image-fundo-two {
+            height: 180px;
+        }
+        .image-area {
+            height: 300px;
+        }
+        .information-area {
+            height: 300px;
+            width: 200px;
+            margin-right: 50px;
+        }
+        .information-area h1 {
+            font-size: 16px;
+        }
+        .information-area h2 {
+            font-size: 16px;
+        }
+        .information-area p {
+            max-width: 160px;
+            font-size: 8px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .information-area h6 {
+            font-size: 10px;
+            margin-left: 20px;
+        }
+        .information-title {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
+        /* footer */
+        .img-footer {
+            background-image: url(./img-footer/Group\ 11.png);
+            width: 100%;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+        }
+        .img-top {
+            background-image: url(./img-footer/Rectangle\ 12.png);
+            height: 245px;
+            margin-top: 22px;
+            flex-direction: column;
+        }
+        .img-top img {
+            width: 100px;
+            height: 55px;
+        }
+        label {
+            font-size: 12px;
+        }
+        .img-top a {
+            font-size: 11px;
+        }
+        .img-top p {
+            width: 150px;
+            font-size: 11px;
+        }
+        .img-top h2 {
+            font-size: 15px;
+            font-weight: 700px;
+            color: #FFFFFF;
+        }
+        .background {
+            height: 30px;
+            width: 30px;
+        }
+    }
